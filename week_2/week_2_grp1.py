@@ -5,13 +5,17 @@ y2 = input()
 y3 = input()
 z = input()
 
-x1,x2=x2,x1 # swap the values of `x1` and `x2`
+# swap the values of `x1` and `x2`
+x1,x2= x2,x1
 
-y1,y2,y3=y2,y3,y1    # do a circular swap of `y1`, `y2` and `y3`  like y1 = y2, y2 = y3, y3 = y1 
+# do a circular swap of `y1`, `y2` and `y3`  like y1 = y2, y2 = y3, y3 = y1 
+y1,y2,y3=y2,y3,y1
 
-a=z # create a new variable `a` with the value of `z`
+# create a new variable `a` with the value of `z`
+a=z
 
-del z # delete the variable `z`
+# delete the variable `z`
+del z
 
 print(x1)
 print(x2)
