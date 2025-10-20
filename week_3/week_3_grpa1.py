@@ -73,6 +73,3 @@ elif task=="only_odd_lines":
     reversed_line='\n'.join(split_line)
     print(reversed_line)
 
-
-
-            

@@ -25,3 +25,4 @@ if is_card_payment:
     total_cost=total_cost+ 0.05
 
 print(f"{total_cost:.02f}")
+
