@@ -22,7 +22,7 @@ elif task=="repeat_incrementally":
     for i in range(1,n+2):
         for j in range(1,i):
             print(j,end=' ')
-    print()    
+    print(end="\n")    
 elif task=="increment_and_decrement":
     n=int(input())
     increment=' '
@@ -30,3 +30,6 @@ elif task=="increment_and_decrement":
         increment=increment+str(i)
         decrement=increment[::-1][1:]
         print(increment+decrement)
+
+
+
