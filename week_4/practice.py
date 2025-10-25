@@ -15,5 +15,9 @@
 # print(type(s2))
 
 # print(min([1,2,3,4,-1,4]))
-add=lambda x,y,z: x+y+z
-print(add(1,2,3))
+# add=lambda x,y,z: x+y+z
+# print(add(1,2,3))
+
+m=3
+print([[1 if i==j else 0 for j in range(m)] for i in range(m)])
+print([[1 if j<=i else 0 for j in range(m)] for i in range(m)])
